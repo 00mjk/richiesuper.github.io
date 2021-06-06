@@ -1,0 +1,12 @@
+body {
+  background-color: lightskyblue;
+  font-family: consolas, serif;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+img {
+  text-align: center;
+  width: 60%;
+}
