@@ -9,12 +9,12 @@ h1 {
 img {
   width: 360px;
 }
-a {
+a.buttons {
   display: block;
   padding: 5px 10px 5px 10px;
   background-color: pink;
 }
-a:hover {
+a:hover.buttons {
   display: block;
   padding: 5px 10px 5px 10px;
   background-color: red;
