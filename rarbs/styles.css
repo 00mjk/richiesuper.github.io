@@ -10,5 +10,12 @@ img {
   width: 360px;
 }
 a {
+  display: block;
   padding: 5px 10px 5px 10px;
+  background-color: pink;
+}
+a:hover {
+  display: block;
+  padding: 5px 10px 5px 10px;
+  background-color: red;
 }
