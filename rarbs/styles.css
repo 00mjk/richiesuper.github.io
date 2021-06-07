@@ -19,3 +19,8 @@ a:hover.buttons {
   padding: 5px 10px 5px 10px;
   background-color: red;
 }
+a:active.buttons {
+  display: block;
+  padding: 5px 10px 5px 10px;
+  background-color: green;
+}
