@@ -1,2 +1,3 @@
 # richiesuper.github.io
-Public GitHub hosted webpage
+This is my publicly visible website that's hosted by GitHub pages.
+Feel free to come by!
