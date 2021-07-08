@@ -117,10 +117,26 @@ h1.welcome-head {
 b.site-title {
     font-weight: bold;
 }
-pre.hello-world {
-    color: darkorange;
+div.codeblock {
     background-color: darkslategray;
+    padding: 15px 0px 15px 0px;
+}
+p.hello-world {
+    color: darkorange;
     margin-bottom: 15px;
+    margin-left: 10px;
+}
+p.hello-world.executable {
+    color: lightblue;
+}
+p.hello-world.orangered {
+    color: orangered;
+}
+b.datatype {
+    color: red;
+}
+b.format {
+    color: cyan;
 }
 h2.greetings, h2.purpose {
     font-weight: bold;
