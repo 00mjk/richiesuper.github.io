@@ -121,6 +121,8 @@ pre.hello-world {
     color: darkorange;
     background-color: darkslategray;
     margin-bottom: 15px;
+    width: inherit;
+    margin: auto;
 }
 h2.greetings, h2.purpose {
     font-weight: bold;
