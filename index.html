@@ -10,30 +10,60 @@
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
-        <header class="site-header">
-            <div class="wrapper">
-                <a class="site-title" href="/">richie.thedev.id</a>
-                <div class="navbar">
-                    <a href="blog/">Blog</a>
-                    <a href="projects/">Projects</a>
-                    <a href="about/">About</a>
+        <div class="container">
+            <header class="site-header">
+                <div class="wrapper">
+                    <a class="site-title" href="/">richie.thedev.id</a>
+                    <div class="navbar">
+                        <a class="navbar" href="blog/">Blog</a>
+                        <a class="navbar" href="projects/">Projects</a>
+                        <a class="navbar" href="about/">About</a>
+                    </div>
                 </div>
-            </div>
-        </header>
-        <main class="content">
-            <div class="welcome">
-                <h1 class="welcome-header">
-                    Welcome to richie.thedev.id
-                </h1>
-                <p class="welcome-msg">
-                    Hi! I'm Richie and this is my personal website.
+            </header>
+            <hr>
+            <main class="content">
+                <div class="welcome">
+                    <h1 class="welcome-head">Welcome to <b class="site-title">richie.thedev.id</b></h1>
+                    <pre class="hello-world">
+
+    ~/ $ ls
+    hello.c
+
+    ~/ $ cat hello.c
+    #include &lt;stdio.h&gt;
+
+    int main(void) {
+        char message[] = {72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33, 0};
+        printf("%s\n", message);
+    }
+
+    ~/ $ cc -o hello hello.c
+
+    ~/ $ ./hello
+    Hello, world!
+                    </pre>
+                    <h2 class="greetings">
+                        &gt; Greetings!
+                    </h2>
+                    <p class="greetings-msg">
+                    Hi! I'm <code class="name">Richie</code> and this is my personal website.
+                    </p>
+                </div>
+                <div class="text">
+                    <h2 class="purpose">
+                        &gt; Purpose of this website:
+                    </h2>
+                    <p class="purpose-msg">
+                    I created this website as a place to share my thoughts, my projects, and also information about myself. While it is true that I'm not really a talkative person, I do want to share to you about things that I do and things that I like. I think it's also time for me to hone my writing skill so people could understand me better, which definitely is a great skill to have! Stay tuned for a periodical updates to this website!
+                    </p>
+                </div>
+            </main>
+            <footer class="site-footer">
+                <p class="author">
+                &gt; Created with &#128150 by Richie &lt;
                 </p>
-            </div>
-        <h1>Hello there, curious web surfer!</h1>
-        <a href="src/pog.mp4">
-            <img src="src/pog.png" alt="Poggers" title="This is poggers!">
-        </a>
-        <h2>What have made you come here? Is it because of pure curiosity? Or is it because of magical circumstances?</h2>
-        </main>
+            </footer>
+        </div>
 	</body>
 </html>
