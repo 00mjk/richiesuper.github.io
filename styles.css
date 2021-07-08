@@ -66,9 +66,9 @@ div.wrapper {
     text-align: left;
 }
 div.navbar {
-    display: inline-block;
+    display: block;
     text-align: left;
-    margin-left: 45%;
+    float: right;
 }
 a.site-title, a.navbar {
     text-decoration: none;
