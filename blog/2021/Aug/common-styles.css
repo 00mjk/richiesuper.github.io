@@ -4,11 +4,11 @@
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+blockquote, pre,
+abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
+small, strike, tt, var,
+center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
@@ -127,61 +127,6 @@ main.content {
     margin: auto;
     padding: 25px 0px 25px 0px;
     text-align: left;
-}
-
-h1.welcome-head {
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-b.site-title {
-    font-weight: bold;
-}
-
-div.codeblock {
-    background-color: darkslategray;
-    padding: 15px 0px 15px 0px;
-    margin-bottom: 15px;
-}
-
-p.hello-world {
-    color: darkorange;
-    margin-bottom: 15px;
-    margin-left: 10px;
-}
-
-p.hello-world.executable {
-    color: lightblue;
-}
-
-p.hello-world.orangered {
-    color: orangered;
-}
-
-b.datatype {
-    color: red;
-}
-
-b.format {
-    color: cyan;
-}
-
-h2.greetings, h2.purpose {
-    font-weight: bold;
-    font-size: 24px;
-    text-align: left;
-    margin-bottom: 15px;
-}
-
-p.greetings-msg, p.purpose-msg {
-    font-size: 16px;
-    margin: 0px 25px 20px 25px;
-}
-
-code.name {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
 }
 
 footer.site-footer {
